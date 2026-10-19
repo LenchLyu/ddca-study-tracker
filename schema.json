@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "course": "ETH Zurich Digital Design and Computer Architecture",
+  "source_checked_on": "2026-10-19",
+  "tables": {
+    "学习任务": {
+      "properties": {
+        "任务名称": "title",
+        "编号": "text",
+        "官方顺序": "number",
+        "任务类型": {
+          "type": "select",
+          "options": [
+            "理论课",
+            "Homework",
+            "Lab",
+            "解题复习",
+            "自选拓展"
+          ]
+        },
+        "所属阶段": {
+          "type": "select",
+          "options": [
+            "数字逻辑与 Verilog",
+            "ISA 与汇编",
+            "处理器设计",
+            "高级体系结构",
+            "存储系统"
+          ]
+        },
+        "资料年份": "number",
+        "学习优先级": {
+          "type": "select",
+          "options": [
+            "主线必学",
+            "辅助选学"
+          ]
+        },
+        "状态": {
+          "type": "status",
+          "to_do": [
+            "未开始"
+          ],
+          "in_progress": [
+            "学习中",
+            "待验收"
+          ],
+          "complete": [
+            "已完成"
+          ]
+        },
+        "掌握程度": {
+          "type": "select",
+          "options": [
+            "未评估",
+            "仍有困难",
+            "基本理解",
+            "能独立解题或实现"
+          ]
+        },
+        "官方资料链接": "url",
+        "答案链接": "url",
+        "视频链接": "url",
+        "完成标准": "text",
+        "实际开始日期": "date",
+        "完成日期": "date",
+        "下次复习日期": "date",
+        "待解决问题": "text",
+        "笔记或代码链接": "url",
+        "验证范围": {
+          "type": "select",
+          "options": [
+            "未验证",
+            "仿真通过",
+            "上板通过"
+          ]
+        },
+        "资料核对": {
+          "type": "select",
+          "options": [
+            "已核对",
+            "待核实",
+            "部分缺失"
+          ]
+        },
+        "前置任务": {
+          "type": "relation",
+          "target": "学习任务",
+          "direction": "one_way",
+          "resolve_by": "编号"
+        },
+        "相关任务": {
+          "type": "relation",
+          "target": "学习任务",
+          "direction": "one_way",
+          "resolve_by": "编号"
+        },
+        "学习记录": {
+          "type": "relation",
+          "target": "学习记录",
+          "synced_property": "关联任务"
+        },
+        "完成值（%）": {
+          "type": "formula",
+          "expression": "if(prop(\"状态\") == \"已完成\", 100, 0)"
+        },
+        "可开始": {
+          "type": "formula",
+          "expression": "and(prop(\"状态\") == \"未开始\", prop(\"前置任务\").filter(current.prop(\"状态\") != \"已完成\").length() == 0)"
+        },
+        "累计学习时长（分钟）": {
+          "type": "rollup",
+          "relation": "学习记录",
+          "property": "分摊用时（分钟）",
+          "aggregation": "sum"
+        }
+      }
+    },
+    "学习记录": {
+      "properties": {
+        "记录名称": "title",
+        "日期": "date",
+        "关联任务": {
+          "type": "relation",
+          "target": "学习任务",
+          "direction": "two_way",
+          "synced_property": "学习记录"
+        },
+        "本次用时（分钟）": "number",
+        "本次完成了什么": "text",
+        "遇到的问题": "text",
+        "下一步行动": "text",
+        "分摊用时（分钟）": {
+          "type": "formula",
+          "expression": "if(empty(prop(\"关联任务\")), 0, prop(\"本次用时（分钟）\") / length(prop(\"关联任务\")))"
+        },
+        "本周用时（分钟）": {
+          "type": "formula",
+          "expression": "if(empty(prop(\"日期\")), 0, if(and(prop(\"日期\") >= dateSubtract(today(), day(today()) - 1, \"days\"), prop(\"日期\") < dateAdd(dateSubtract(today(), day(today()) - 1, \"days\"), 7, \"days\")), prop(\"本次用时（分钟）\"), 0))"
+        }
+      }
+    }
+  },
+  "views_documentation": "docs/notion-setup.md",
+  "defaults": {
+    "status": "未开始",
+    "mastery": "未评估",
+    "dates": null,
+    "study_logs": []
+  },
+  "initial_counts": {
+    "理论课": 36,
+    "Homework": 6,
+    "Lab": 10,
+    "解题复习": 20,
+    "主线": 52,
+    "全部": 72
+  }
+}

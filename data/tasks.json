@@ -1,0 +1,1778 @@
+[
+  {
+    "code": "L1",
+    "properties": {
+      "任务名称": "L1: Introduction: Fundamentals, Transistors, Gates",
+      "编号": "L1",
+      "官方顺序": 1010,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture1-intro-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=M2rdcGH53k4",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "解释晶体管开关抽象、逻辑电平和基本逻辑门，并画出一个简单门电路。"
+    },
+    "content": "## 验收标准\n解释晶体管开关抽象、逻辑电平和基本逻辑门，并画出一个简单门电路。\n## 自检提示\n- 晶体管为什么可以抽象为开关？\n- 从输入电平推导门电路的输出。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture1-intro-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture1-intro-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=M2rdcGH53k4)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [],
+    "related": [
+      "HW1"
+    ]
+  },
+  {
+    "code": "L2",
+    "properties": {
+      "任务名称": "L2: Combinational Logic",
+      "编号": "L2",
+      "官方顺序": 1020,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture2-combinational-logic-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=EbvYrjx26QI",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "能在真值表、布尔表达式与组合电路之间转换，并独立完成一道组合逻辑题。"
+    },
+    "content": "## 验收标准\n能在真值表、布尔表达式与组合电路之间转换，并独立完成一道组合逻辑题。\n## 自检提示\n- 写出并化简逻辑表达式。\n- 解释逻辑完备性与多路选择器。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture2-combinational-logic-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture2-combinational-logic-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=EbvYrjx26QI)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L1"
+    ],
+    "related": [
+      "HW1",
+      "Lab 1",
+      "Lab 3"
+    ]
+  },
+  {
+    "code": "Lab 1",
+    "properties": {
+      "任务名称": "Lab 1: Drawing a Basic Circuit",
+      "编号": "Lab 1",
+      "官方顺序": 1025,
+      "任务类型": "Lab",
+      "所属阶段": "数字逻辑与 Verilog",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab1_manual.pdf&cache=0",
+      "完成标准": "独立设计 4 位相等比较器与 1 位大小比较器，绘制电路并用真值表检查功能。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n独立设计 4 位相等比较器与 1 位大小比较器，绘制电路并用真值表检查功能。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab1 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab1_manual.pdf&cache=0)\n- [Lab1 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab1_report.pdf&cache=0)\n- [Lab1 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab1_report.docx&cache=0)\n- [Lab1 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_s26_lab1_supplement.pdf&cache=0)\n- [Lab1 Supplement (PPTX)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_s26_lab1_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "L2"
+    ],
+    "related": [
+      "HW1",
+      "L2"
+    ]
+  },
+  {
+    "code": "L3",
+    "properties": {
+      "任务名称": "L3: Combinational Logic II & Sequential Logic",
+      "编号": "L3",
+      "官方顺序": 1030,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture3-combinational-logic-ii-and-sequential-logic-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=F0bK_Wu71i4",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "区分组合逻辑与时序逻辑，解释状态存储，并分析简单锁存器或触发器。"
+    },
+    "content": "## 验收标准\n区分组合逻辑与时序逻辑，解释状态存储，并分析简单锁存器或触发器。\n## 自检提示\n- 输出何时依赖历史状态？\n- 解释 latch 与 flip-flop 的区别。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture3-combinational-logic-ii-and-sequential-logic-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture3-combinational-logic-ii-and-sequential-logic-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=F0bK_Wu71i4)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L2"
+    ],
+    "related": [
+      "HW1"
+    ]
+  },
+  {
+    "code": "L4a",
+    "properties": {
+      "任务名称": "L4a: Sequential Logic Design II & Finite State Machines",
+      "编号": "L4a",
+      "官方顺序": 1041,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture4a-sequential-logic-ii-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=CrAzN0ymgPU",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "能从行为描述画出状态转移图，并给出状态、输出和下一状态逻辑。"
+    },
+    "content": "## 验收标准\n能从行为描述画出状态转移图，并给出状态、输出和下一状态逻辑。\n## 自检提示\n- 区分 Moore 与 Mealy 状态机。\n- 处理复位、状态编码和非法输入。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture4a-sequential-logic-ii-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture4a-sequential-logic-ii-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=CrAzN0ymgPU)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L3"
+    ],
+    "related": [
+      "HW1",
+      "Lab 4"
+    ]
+  },
+  {
+    "code": "L4b",
+    "properties": {
+      "任务名称": "L4b: Introduction to the Labs and FPGAs",
+      "编号": "L4b",
+      "官方顺序": 1042,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ataberk-ddca-2026-lecture4b-labs-fpgas.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=CrAzN0ymgPU",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "理解 FPGA 与课程实验流程，能说明设计、仿真、综合、实现和下载各环节的作用。"
+    },
+    "content": "## 验收标准\n理解 FPGA 与课程实验流程，能说明设计、仿真、综合、实现和下载各环节的作用。\n## 自检提示\n- FPGA 如何实现可配置逻辑？\n- 确认 Vivado、Basys 3 与实验材料的用途。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ataberk-ddca-2026-lecture4b-labs-fpgas.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ataberk-ddca-2026-lecture4b-labs-fpgas.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=CrAzN0ymgPU)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L2"
+    ],
+    "related": [
+      "Lab 2"
+    ]
+  },
+  {
+    "code": "L5",
+    "properties": {
+      "任务名称": "L5: Hardware Description Languages and Verilog",
+      "编号": "L5",
+      "官方顺序": 1050,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture5-hdl-verilog-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=pBqAzwltquY",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "能独立编写组合和时序 Verilog 模块，解释代码对应的硬件并避免意外锁存器。"
+    },
+    "content": "## 验收标准\n能独立编写组合和时序 Verilog 模块，解释代码对应的硬件并避免意外锁存器。\n## 自检提示\n- 区分阻塞与非阻塞赋值。\n- 检查组合逻辑分支是否完整。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture5-hdl-verilog-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture5-hdl-verilog-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=pBqAzwltquY)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L2",
+      "L3"
+    ],
+    "related": [
+      "HW1",
+      "Lab 2",
+      "Lab 3",
+      "Lab 4",
+      "Lab 5"
+    ]
+  },
+  {
+    "code": "Lab 2",
+    "properties": {
+      "任务名称": "Lab 2: Mapping Your Circuit to FPGA",
+      "编号": "Lab 2",
+      "官方顺序": 1055,
+      "任务类型": "Lab",
+      "所属阶段": "数字逻辑与 Verilog",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab2_manual.pdf&cache=0",
+      "完成标准": "用结构化 Verilog 实现全加器与 4 位加法器，完成逻辑验证；有板时用开关和 LED 演示。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n用结构化 Verilog 实现全加器与 4 位加法器，完成逻辑验证；有板时用开关和 LED 演示。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab2 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab2_manual.pdf&cache=0)\n- [Lab2 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab2_report.pdf&cache=0)\n- [Lab2 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab2_report.docx&cache=0)\n- [Lab2 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab2_supplement.pdf&cache=0)\n- [Lab2 Supplement (PPTX)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab2_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "L4b",
+      "L5",
+      "Lab 1"
+    ],
+    "related": [
+      "HW1",
+      "L4b",
+      "L5"
+    ]
+  },
+  {
+    "code": "Lab 3",
+    "properties": {
+      "任务名称": "Lab 3: Verilog for Combinational Circuits",
+      "编号": "Lab 3",
+      "官方顺序": 1056,
+      "任务类型": "Lab",
+      "所属阶段": "数字逻辑与 Verilog",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab3_manual.pdf&cache=0",
+      "完成标准": "实现十六进制七段译码并连接加法器，验证输入与显示编码；有板时演示数码管。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n实现十六进制七段译码并连接加法器，验证输入与显示编码；有板时演示数码管。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab3 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab3_manual.pdf&cache=0)\n- [Lab3 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab3_report.pdf&cache=0)\n- [Lab3 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab3_report.docx&cache=0)\n- [Lab3 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab3_supplement.pdf&cache=0)\n- [Lab3 Supplement (PPTX)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab3_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "Lab 2"
+    ],
+    "related": [
+      "HW1",
+      "L2",
+      "L5"
+    ]
+  },
+  {
+    "code": "Lab 4",
+    "properties": {
+      "任务名称": "Lab 4: Finite State Machines",
+      "编号": "Lab 4",
+      "官方顺序": 1057,
+      "任务类型": "Lab",
+      "所属阶段": "数字逻辑与 Verilog",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab4_manual.pdf&cache=0",
+      "完成标准": "设计并实现 Thunderbird 转向灯 FSM，验证复位、状态序列与左右转行为。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n设计并实现 Thunderbird 转向灯 FSM，验证复位、状态序列与左右转行为。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab4 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab4_manual.pdf&cache=0)\n- [Lab4 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab4_report.pdf&cache=0)\n- [Lab4 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab4_report.docx&cache=0)\n- [Lab4 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab4_supplement.pdf&cache=0)\n- [Lab4 Supplement (PPTX)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab4_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "L4a",
+      "L5"
+    ],
+    "related": [
+      "HW1",
+      "L4a",
+      "L5"
+    ]
+  },
+  {
+    "code": "L6",
+    "properties": {
+      "任务名称": "L6: Timing & Verification",
+      "编号": "L6",
+      "官方顺序": 1060,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture6-timing-and-verification-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=smY30P4inhk",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "能计算简单同步电路的时序约束、关键路径和最大时钟频率。"
+    },
+    "content": "## 验收标准\n能计算简单同步电路的时序约束、关键路径和最大时钟频率。\n## 自检提示\n- 解释 setup、hold 与传播延迟。\n- 说明时钟周期受哪些路径限制。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture6-timing-and-verification-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture6-timing-and-verification-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=smY30P4inhk)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L3"
+    ],
+    "related": [
+      "HW1",
+      "Lab 6"
+    ]
+  },
+  {
+    "code": "L6b",
+    "properties": {
+      "任务名称": "L6b: Verification & Testing",
+      "编号": "L6b",
+      "官方顺序": 1062,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture6b-verification-and-testing.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=7FZ-A4wMXlk",
+      "所属阶段": "数字逻辑与 Verilog",
+      "完成标准": "能说明验证与测试的区别，设计基本测试场景并阅读波形定位错误。"
+    },
+    "content": "## 验收标准\n能说明验证与测试的区别，设计基本测试场景并阅读波形定位错误。\n## 自检提示\n- 什么样的测试能够发现边界错误？\n- 如何把预期结果与输出自动比较？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture6b-verification-and-testing.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture6b-verification-and-testing.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=7FZ-A4wMXlk)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L6"
+    ],
+    "related": [
+      "HW1",
+      "Lab 6"
+    ]
+  },
+  {
+    "code": "HW1",
+    "properties": {
+      "任务名称": "HW1: Logical Completeness, Boolean Algebra, Combinational Logic, Transistor-Level Circuit Design, Multiplexer, Verilog, and Finite State Machine",
+      "编号": "HW1",
+      "官方顺序": 1065,
+      "任务类型": "Homework",
+      "所属阶段": "数字逻辑与 Verilog",
+      "资料年份": 2025,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "资料核对": "已核对",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw1_2025.pdf&cache=0",
+      "答案链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw1_2025_solution.pdf&cache=0",
+      "完成标准": "分主题完成数字逻辑、Verilog 与 FSM 习题；先独立尝试，再对照答案订正并能重做错题。"
+    },
+    "content": "## 验收标准\n分主题完成数字逻辑、Verilog 与 FSM 习题；先独立尝试，再对照答案订正并能重做错题。\n## 使用方式\n按相关课件的主题拆做，不必等整套涉及的课全部学完。前置任务只表示适合开始部分题目的基础。\n## 资料版本\n2026 Homework 页面当前为空，因此采用 2025 年官方习题；保留原作业编号。\n- [题目](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw1_2025.pdf&cache=0)\n- [答案：独立尝试后查看](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw1_2025_solution.pdf&cache=0)\n- [官方作业目录](https://safari.ethz.ch/ddca/spring2025/doku.php?do=show&id=homeworks)",
+    "prereq": [
+      "L2"
+    ],
+    "related": [
+      "L1",
+      "L2",
+      "L3",
+      "L4a",
+      "L5",
+      "L6",
+      "L6b",
+      "Lab 1",
+      "Lab 2",
+      "Lab 3",
+      "Lab 4"
+    ]
+  },
+  {
+    "code": "L7",
+    "properties": {
+      "任务名称": "L7: Von Neumann Model & Instruction Set Architectures",
+      "编号": "L7",
+      "官方顺序": 1070,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture7-vonneumann-isa-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=fOl5MLoUzco",
+      "所属阶段": "ISA 与汇编",
+      "完成标准": "能解释冯·诺依曼模型、取指执行过程和 ISA 的作用。"
+    },
+    "content": "## 验收标准\n能解释冯·诺依曼模型、取指执行过程和 ISA 的作用。\n## 自检提示\n- 追踪 PC、寄存器与内存的变化。\n- 区分体系结构可见状态与实现细节。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture7-vonneumann-isa-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture7-vonneumann-isa-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=fOl5MLoUzco)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L3"
+    ],
+    "related": [
+      "HW2",
+      "Lab 7"
+    ]
+  },
+  {
+    "code": "L8",
+    "properties": {
+      "任务名称": "L8: Instruction Set Architectures II",
+      "编号": "L8",
+      "官方顺序": 1080,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture8-isa-ii-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=n4wUE6H8tCU",
+      "所属阶段": "ISA 与汇编",
+      "完成标准": "能解读代表性指令的编码与语义，追踪寄存器、内存和控制流。"
+    },
+    "content": "## 验收标准\n能解读代表性指令的编码与语义，追踪寄存器、内存和控制流。\n## 自检提示\n- 比较寻址方式。\n- 手工执行一段短汇编。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture8-isa-ii-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture8-isa-ii-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=n4wUE6H8tCU)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L7"
+    ],
+    "related": [
+      "HW2",
+      "Lab 7"
+    ]
+  },
+  {
+    "code": "L9a",
+    "properties": {
+      "任务名称": "L9a: ISA and Microarchitecture",
+      "编号": "L9a",
+      "官方顺序": 1091,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture9a-isa-microarchitecture-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=tp70062TXG8",
+      "所属阶段": "ISA 与汇编",
+      "完成标准": "能区分 ISA 与微架构，并用同一 ISA 的不同实现解释设计取舍。"
+    },
+    "content": "## 验收标准\n能区分 ISA 与微架构，并用同一 ISA 的不同实现解释设计取舍。\n## 自检提示\n- 哪些变化会影响软件兼容性？\n- 同一条指令可以如何实现？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture9a-isa-microarchitecture-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture9a-isa-microarchitecture-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=tp70062TXG8)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L8"
+    ],
+    "related": [
+      "HW2",
+      "Lab 9"
+    ]
+  },
+  {
+    "code": "L9b",
+    "properties": {
+      "任务名称": "L9b: Assembly Programming",
+      "编号": "L9b",
+      "官方顺序": 1092,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture9b-assembly-programming-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=Tqc3XRJB9js",
+      "所属阶段": "ISA 与汇编",
+      "完成标准": "能独立编写并追踪包含分支、循环、访存的 MIPS 汇编程序。"
+    },
+    "content": "## 验收标准\n能独立编写并追踪包含分支、循环、访存的 MIPS 汇编程序。\n## 自检提示\n- 把一段简单循环翻译为汇编。\n- 检查寄存器用途和地址计算。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture9b-assembly-programming-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture9b-assembly-programming-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=Tqc3XRJB9js)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L8"
+    ],
+    "related": [
+      "HW2",
+      "Lab 7"
+    ]
+  },
+  {
+    "code": "Lab 7",
+    "properties": {
+      "任务名称": "Lab 7: Writing Assembly Code",
+      "编号": "Lab 7",
+      "官方顺序": 1095,
+      "任务类型": "Lab",
+      "所属阶段": "ISA 与汇编",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab7_manual.pdf&cache=0",
+      "完成标准": "用 MIPS 编写区间求和与 SAD 等程序，在 MARS 中检查寄存器、内存和结果。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n用 MIPS 编写区间求和与 SAD 等程序，在 MARS 中检查寄存器、内存和结果。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab7 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab7_manual.pdf&cache=0)\n- [Lab7 Files](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=lab7_files.zip&cache=0)\n- [Lab7 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab7_report.pdf&cache=0)\n- [Lab7 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab7_report.docx&cache=0)\n- [Lab7 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab7_supplement.pdf&cache=0)\n- [Lab7 Supplement (PPT)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab7_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "L9b"
+    ],
+    "related": [
+      "HW2",
+      "L7",
+      "L8",
+      "L9b",
+      "Lab 8.1",
+      "Lab 8.2"
+    ]
+  },
+  {
+    "code": "L10",
+    "properties": {
+      "任务名称": "L10: Microarchitecture Fundamentals and Design",
+      "编号": "L10",
+      "官方顺序": 1100,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture10-microarchitecture-fundamentals-design-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=ZALI3HY3Zrs",
+      "所属阶段": "处理器设计",
+      "完成标准": "能画出单周期处理器的主要数据通路，并追踪算术、访存、分支指令的控制信号。"
+    },
+    "content": "## 验收标准\n能画出单周期处理器的主要数据通路，并追踪算术、访存、分支指令的控制信号。\n## 自检提示\n- 逐条解释 lw、sw、beq 的执行路径。\n- 区分数据通路和控制器的职责。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture10-microarchitecture-fundamentals-design-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture10-microarchitecture-fundamentals-design-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=ZALI3HY3Zrs)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L9a",
+      "L4a",
+      "L5"
+    ],
+    "related": [
+      "HW2",
+      "Lab 5",
+      "Lab 8.1"
+    ]
+  },
+  {
+    "code": "Lab 5",
+    "properties": {
+      "任务名称": "Lab 5: Implementing an ALU",
+      "编号": "Lab 5",
+      "官方顺序": 1105,
+      "任务类型": "Lab",
+      "所属阶段": "处理器设计",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab5_manual.pdf&cache=0",
+      "完成标准": "实现 32 位 ALU，检查运算功能，并记录 Vivado 综合资源和时序结果。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n实现 32 位 ALU，检查运算功能，并记录 Vivado 综合资源和时序结果。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab5 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab5_manual.pdf&cache=0)\n- [Lab5 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab5_report.pdf&cache=0)\n- [Lab5 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab5_report.docx&cache=0)\n- [Lab5 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab5_supplement.pdf&cache=0)\n- [Lab5 Supplement (PPTX)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab5_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "L5",
+      "L10"
+    ],
+    "related": [
+      "L10",
+      "L5",
+      "Lab 8.1"
+    ]
+  },
+  {
+    "code": "Lab 6",
+    "properties": {
+      "任务名称": "Lab 6: Testing the ALU",
+      "编号": "Lab 6",
+      "官方顺序": 1106,
+      "任务类型": "Lab",
+      "所属阶段": "处理器设计",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab6_manual.pdf&cache=0",
+      "完成标准": "编写 testbench 验证自己的 ALU，并定位和修复给定 bad_ALU 的错误。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n编写 testbench 验证自己的 ALU，并定位和修复给定 bad_ALU 的错误。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab6 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab6_manual.pdf&cache=0)\n- [Lab6 Files](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=lab6_files.zip&cache=0)\n- [Lab6 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab6_report.pdf&cache=0)\n- [Lab6 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab6_report.docx&cache=0)\n- [Lab6 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab6_supplement.pdf&cache=0)\n- [Lab6 Supplement (PPT)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab6_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。",
+    "prereq": [
+      "Lab 5",
+      "L6b"
+    ],
+    "related": [
+      "L6",
+      "L6b",
+      "Lab 8.1"
+    ]
+  },
+  {
+    "code": "Lab 8.1",
+    "properties": {
+      "任务名称": "Lab 8.1: Full System Integration (Part I)",
+      "编号": "Lab 8.1",
+      "官方顺序": 1107,
+      "任务类型": "Lab",
+      "所属阶段": "处理器设计",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-1_manual.pdf&cache=0",
+      "完成标准": "在给定框架中补全单周期 MIPS 数据通路和写 I/O，验证小蛇程序的执行；有板时演示数码管输出。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n在给定框架中补全单周期 MIPS 数据通路和写 I/O，验证小蛇程序的执行；有板时演示数码管输出。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab8.1 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-1_manual.pdf&cache=0)\n- [Lab8.1 Files](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=lab8_files.zip&cache=0)\n- [Lab8.1 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-1_report.pdf&cache=0)\n- [Lab8.1 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-1_report.docx&cache=0)\n- [Lab8.1 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-1_supplement.pdf&cache=0)\n- [Lab8.1 Supplement (PPT)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-1_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。\n本实验基于单周期 MIPS 框架；官方任务不要求实现流水线 CPU。",
+    "prereq": [
+      "L10",
+      "Lab 6",
+      "Lab 7"
+    ],
+    "related": [
+      "HW2",
+      "L10",
+      "Lab 5",
+      "Lab 6",
+      "Lab 7",
+      "Lab 8.2",
+      "Lab 9"
+    ]
+  },
+  {
+    "code": "Lab 8.2",
+    "properties": {
+      "任务名称": "Lab 8.2: Full System Integration (Part II)",
+      "编号": "Lab 8.2",
+      "官方顺序": 1108,
+      "任务类型": "Lab",
+      "所属阶段": "处理器设计",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-2_manual.pdf&cache=0",
+      "完成标准": "扩展开关输入和内存映射 I/O，修改汇编实现四档调速，并验证软硬件协同。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n扩展开关输入和内存映射 I/O，修改汇编实现四档调速，并验证软硬件协同。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab8.2 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-2_manual.pdf&cache=0)\n- [Lab8.2 Files](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=lab8_files.zip&cache=0)\n- [Lab8.2 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-2_report.pdf&cache=0)\n- [Lab8.2 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-2_report.docx&cache=0)\n- [Lab8.2 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-2_supplement.pdf&cache=0)\n- [Lab8.2 Supplement (PPT)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab8-2_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。\n本实验基于单周期 MIPS 框架；官方任务不要求实现流水线 CPU。",
+    "prereq": [
+      "Lab 8.1"
+    ],
+    "related": [
+      "Lab 7",
+      "Lab 8.1",
+      "Lab 9"
+    ]
+  },
+  {
+    "code": "Lab 9",
+    "properties": {
+      "任务名称": "Lab 9: The Performance of MIPS",
+      "编号": "Lab 9",
+      "官方顺序": 1109,
+      "任务类型": "Lab",
+      "所属阶段": "处理器设计",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab9_manual.pdf&cache=0",
+      "完成标准": "扩展 srl、multu、mflo 等指令，验证优化程序，比较指令数、周期时间与资源开销。",
+      "验证范围": "未验证",
+      "资料核对": "已核对"
+    },
+    "content": "## 验收标准\n扩展 srl、multu、mflo 等指令，验证优化程序，比较指令数、周期时间与资源开销。\n## 验证范围\n设计、仿真和上板结果分别保留。可以先完成仿真阶段；仿真通过不等于已完成真实外设演示。Lab 1 主要采用电路图和真值表验收。\n## 实验材料\n- [Lab9 Manual](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab9_manual.pdf&cache=0)\n- [Lab9 Files](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=handout-files.zip&cache=0)\n- [Lab9 Report (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab9_report.pdf&cache=0)\n- [Lab9 Report (DOC)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab9_report.docx&cache=0)\n- [Lab9 Supplement (PDF)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab9_supplement.pdf&cache=0)\n- [Lab9 Supplement (PPT)](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=ddca_ss26_lab9_supplement.pptx&cache=0)\n- [实验总入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=labs)\n- [课程 Vivado 安装说明](https://safari.ethz.ch/ddca/spring2026/doku.php?id=instructions_installing_vivado)\n## 自学建议\n先读 Manual 中的任务，再参考 Supplement。保留测试结果、关键波形以及报告问题的回答，不套用校内截止日期。\n本实验基于单周期 MIPS 框架；官方任务不要求实现流水线 CPU。",
+    "prereq": [
+      "Lab 8.2"
+    ],
+    "related": [
+      "L9a",
+      "Lab 8.1",
+      "Lab 8.2"
+    ]
+  },
+  {
+    "code": "L11",
+    "properties": {
+      "任务名称": "L11: Multi-Cycle and Pipelined Processor Design",
+      "编号": "L11",
+      "官方顺序": 1110,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture11-multicycle-pipelined-design-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=x64SoeZ5O4M",
+      "所属阶段": "处理器设计",
+      "完成标准": "能解释多周期与流水线设计，绘制代表性指令的分阶段执行过程。"
+    },
+    "content": "## 验收标准\n能解释多周期与流水线设计，绘制代表性指令的分阶段执行过程。\n## 自检提示\n- 比较 CPI、周期时间和硬件复用。\n- 说明为什么要插入流水寄存器。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture11-multicycle-pipelined-design-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture11-multicycle-pipelined-design-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=x64SoeZ5O4M)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L10"
+    ],
+    "related": [
+      "HW2"
+    ]
+  },
+  {
+    "code": "L12",
+    "properties": {
+      "任务名称": "L12: Pipelined Processor Design II",
+      "编号": "L12",
+      "官方顺序": 1120,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture12-pipelined-processor-design-ii-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=EX05tV1iH9I",
+      "所属阶段": "处理器设计",
+      "完成标准": "能识别数据、控制和结构冒险，画时空图并计算停顿与转发后的执行周期。"
+    },
+    "content": "## 验收标准\n能识别数据、控制和结构冒险，画时空图并计算停顿与转发后的执行周期。\n## 自检提示\n- 何时转发仍不足以解决冒险？\n- 分支如何影响流水线？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture12-pipelined-processor-design-ii-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture12-pipelined-processor-design-ii-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=EX05tV1iH9I)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L11"
+    ],
+    "related": [
+      "HW2"
+    ]
+  },
+  {
+    "code": "L13",
+    "properties": {
+      "任务名称": "L13: Precise Exceptions and Interrupts",
+      "编号": "L13",
+      "官方顺序": 1130,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture13-precise-exceptions-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=TH386wzOXvA",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释精确异常要求，并追踪异常或中断发生时的流水线状态处理。"
+    },
+    "content": "## 验收标准\n能解释精确异常要求，并追踪异常或中断发生时的流水线状态处理。\n## 自检提示\n- 为什么需要保持精确的体系结构状态？\n- 哪些指令可以提交、哪些需要取消？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture13-precise-exceptions-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture13-precise-exceptions-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=TH386wzOXvA)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L12"
+    ],
+    "related": []
+  },
+  {
+    "code": "L14",
+    "properties": {
+      "任务名称": "L14: Out-of-Order Execution",
+      "编号": "L14",
+      "官方顺序": 1140,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture14-out-of-order-execution-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=9M1Jdw16Un0",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释动态调度、寄存器重命名和乱序执行，完成一段指令序列的调度分析。"
+    },
+    "content": "## 验收标准\n能解释动态调度、寄存器重命名和乱序执行，完成一段指令序列的调度分析。\n## 自检提示\n- 区分 RAW、WAR、WAW。\n- 解释乱序执行为何仍需要正确提交。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture14-out-of-order-execution-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture14-out-of-order-execution-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=9M1Jdw16Un0)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L12"
+    ],
+    "related": [
+      "HW2"
+    ]
+  },
+  {
+    "code": "L15a",
+    "properties": {
+      "任务名称": "L15a: Dataflow & Superscalar Execution",
+      "编号": "L15a",
+      "官方顺序": 1151,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture15a-dataflow-superscalar-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=2OQPmdvUmO4",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能比较数据流与控制流执行，并分析超标量发射的依赖与资源限制。"
+    },
+    "content": "## 验收标准\n能比较数据流与控制流执行，并分析超标量发射的依赖与资源限制。\n## 自检提示\n- 多发射的收益受哪些因素限制？\n- 数据就绪与指令顺序有何关系？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture15a-dataflow-superscalar-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture15a-dataflow-superscalar-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=2OQPmdvUmO4)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L11"
+    ],
+    "related": [
+      "HW2"
+    ]
+  },
+  {
+    "code": "L15b",
+    "properties": {
+      "任务名称": "L15b: Branch Prediction",
+      "编号": "L15b",
+      "官方顺序": 1152,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture15b-branch-prediction-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=2OQPmdvUmO4",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能手工更新简单分支预测器的状态，并计算预测命中率。"
+    },
+    "content": "## 验收标准\n能手工更新简单分支预测器的状态，并计算预测命中率。\n## 自检提示\n- 比较静态与动态预测。\n- 解释预测错误的性能代价。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture15b-branch-prediction-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=rahul-ddca-2026-lecture15b-branch-prediction-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=2OQPmdvUmO4)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L12"
+    ],
+    "related": [
+      "HW3"
+    ]
+  },
+  {
+    "code": "L16a",
+    "properties": {
+      "任务名称": "L16a: Out-of-Order Execution",
+      "编号": "L16a",
+      "官方顺序": 1161,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture16a-out-of-order-execution-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=cSlzoF4VASs",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能追踪乱序处理器中的调度、执行和提交，解释相关结构的作用。"
+    },
+    "content": "## 验收标准\n能追踪乱序处理器中的调度、执行和提交，解释相关结构的作用。\n## 自检提示\n- 分析一段包含依赖的指令序列。\n- 区分执行完成与体系结构提交。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture16a-out-of-order-execution-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture16a-out-of-order-execution-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=cSlzoF4VASs)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L14"
+    ],
+    "related": [
+      "HW2"
+    ]
+  },
+  {
+    "code": "L16b",
+    "properties": {
+      "任务名称": "L16b: Load-Store Handling in Out-of-Order Execution",
+      "编号": "L16b",
+      "官方顺序": 1162,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture16b-load-store-handling-in-out-of-order-execution.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=AuwdX-5NO9A",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能分析乱序处理器中 load/store 的依赖、转发与推测处理。"
+    },
+    "content": "## 验收标准\n能分析乱序处理器中 load/store 的依赖、转发与推测处理。\n## 自检提示\n- 地址尚未就绪时 load 能否执行？\n- 错误推测怎样恢复？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture16b-load-store-handling-in-out-of-order-execution.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture16b-load-store-handling-in-out-of-order-execution.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=AuwdX-5NO9A)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L16a"
+    ],
+    "related": [
+      "HW2"
+    ]
+  },
+  {
+    "code": "HW2",
+    "properties": {
+      "任务名称": "HW2: Endianess, Mips Isa, Dataflow, Microarchitecture V/S ISA, Performance Evaluation, Rep Movsb, Single Cycle Datapath, Pipelining, Tomasulo’s Algorithm, and Out-of-Order Execution",
+      "编号": "HW2",
+      "官方顺序": 1165,
+      "任务类型": "Homework",
+      "所属阶段": "处理器设计",
+      "资料年份": 2025,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "资料核对": "已核对",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw2_2025.pdf&cache=0",
+      "答案链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw2_2025_solution.pdf&cache=0",
+      "完成标准": "随课完成 ISA、性能、数据通路、流水线与乱序执行各主题习题，能解释关键计算和错因。"
+    },
+    "content": "## 验收标准\n随课完成 ISA、性能、数据通路、流水线与乱序执行各主题习题，能解释关键计算和错因。\n## 使用方式\n按相关课件的主题拆做，不必等整套涉及的课全部学完。前置任务只表示适合开始部分题目的基础。\n## 资料版本\n2026 Homework 页面当前为空，因此采用 2025 年官方习题；保留原作业编号。\n- [题目](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw2_2025.pdf&cache=0)\n- [答案：独立尝试后查看](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw2_2025_solution.pdf&cache=0)\n- [官方作业目录](https://safari.ethz.ch/ddca/spring2025/doku.php?do=show&id=homeworks)",
+    "prereq": [
+      "L7"
+    ],
+    "related": [
+      "L10",
+      "L11",
+      "L12",
+      "L14",
+      "L15a",
+      "L16a",
+      "L16b",
+      "L7",
+      "L8",
+      "L9a",
+      "L9b",
+      "Lab 7",
+      "Lab 8.1"
+    ]
+  },
+  {
+    "code": "L17",
+    "properties": {
+      "任务名称": "L17: Branch Prediction",
+      "编号": "L17",
+      "官方顺序": 1170,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture17-branch-prediction-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=2UgcdfsY7ks",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能追踪并比较代表性分支预测机制，解释历史信息与别名冲突的影响。"
+    },
+    "content": "## 验收标准\n能追踪并比较代表性分支预测机制，解释历史信息与别名冲突的影响。\n## 自检提示\n- 给定分支序列计算预测结果。\n- 分析预测精度与硬件成本的取舍。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture17-branch-prediction-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture17-branch-prediction-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=2UgcdfsY7ks)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L15b"
+    ],
+    "related": [
+      "HW3"
+    ]
+  },
+  {
+    "code": "L18a",
+    "properties": {
+      "任务名称": "L18a: VLIW Architectures",
+      "编号": "L18a",
+      "官方顺序": 1181,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture18a-vliw-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=BsMxHdxgoos",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释 VLIW 的静态调度方式，并为简单指令序列安排合法指令包。"
+    },
+    "content": "## 验收标准\n能解释 VLIW 的静态调度方式，并为简单指令序列安排合法指令包。\n## 自检提示\n- 编译器承担了哪些调度责任？\n- 比较 VLIW 与动态超标量。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture18a-vliw-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture18a-vliw-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=BsMxHdxgoos)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L12"
+    ],
+    "related": [
+      "HW3"
+    ]
+  },
+  {
+    "code": "L18b",
+    "properties": {
+      "任务名称": "L18b: Systolic Array Architectures",
+      "编号": "L18b",
+      "官方顺序": 1182,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture18b-systolicarrays-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=BsMxHdxgoos",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能追踪脉动阵列中的数据移动与计算，说明数据复用、吞吐和填充开销。"
+    },
+    "content": "## 验收标准\n能追踪脉动阵列中的数据移动与计算，说明数据复用、吞吐和填充开销。\n## 自检提示\n- 手工追踪一个小规模矩阵计算。\n- 哪些计算适合脉动阵列？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture18b-systolicarrays-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture18b-systolicarrays-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=BsMxHdxgoos)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L2",
+      "L3"
+    ],
+    "related": [
+      "HW3"
+    ]
+  },
+  {
+    "code": "HW3",
+    "properties": {
+      "任务名称": "HW3: Branch Prediction, VLIW, and Systolic Arrays",
+      "编号": "HW3",
+      "官方顺序": 1185,
+      "任务类型": "Homework",
+      "所属阶段": "高级体系结构",
+      "资料年份": 2025,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "资料核对": "已核对",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw3_2025.pdf&cache=0",
+      "答案链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw3_sol.pdf&cache=0",
+      "完成标准": "独立尝试分支预测、VLIW 与脉动阵列习题，并对照答案完成订正。"
+    },
+    "content": "## 验收标准\n独立尝试分支预测、VLIW 与脉动阵列习题，并对照答案完成订正。\n## 使用方式\n按相关课件的主题拆做，不必等整套涉及的课全部学完。前置任务只表示适合开始部分题目的基础。\n## 资料版本\n2026 Homework 页面当前为空，因此采用 2025 年官方习题；保留原作业编号。\n- [题目](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw3_2025.pdf&cache=0)\n- [答案：独立尝试后查看](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw3_sol.pdf&cache=0)\n- [官方作业目录](https://safari.ethz.ch/ddca/spring2025/doku.php?do=show&id=homeworks)",
+    "prereq": [
+      "L15b"
+    ],
+    "related": [
+      "L15b",
+      "L17",
+      "L18a",
+      "L18b"
+    ]
+  },
+  {
+    "code": "L19",
+    "properties": {
+      "任务名称": "L19: SIMD Architectures",
+      "编号": "L19",
+      "官方顺序": 1190,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture19-simd-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=77DqS3jWOtk",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释 SIMD/向量执行、掩码和数据并行，并分析一段程序的适用性。"
+    },
+    "content": "## 验收标准\n能解释 SIMD/向量执行、掩码和数据并行，并分析一段程序的适用性。\n## 自检提示\n- 比较标量与 SIMD 的工作分配。\n- 不规则控制流如何影响效率？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture19-simd-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture19-simd-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=77DqS3jWOtk)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L9a"
+    ],
+    "related": [
+      "HW4"
+    ]
+  },
+  {
+    "code": "L19b",
+    "properties": {
+      "任务名称": "L19b: Decoupled Access-Execute",
+      "编号": "L19b",
+      "官方顺序": 1192,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture19b-dae-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=f3Rq2tGbuUg",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释解耦访问与执行的思想，说明队列、依赖和访存延迟对收益的影响。"
+    },
+    "content": "## 验收标准\n能解释解耦访问与执行的思想，说明队列、依赖和访存延迟对收益的影响。\n## 自检提示\n- 访问部分与执行部分各负责什么？\n- 什么时候解耦可能没有明显收益？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture19b-dae-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture19b-dae-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=f3Rq2tGbuUg)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L11"
+    ],
+    "related": []
+  },
+  {
+    "code": "L20",
+    "properties": {
+      "任务名称": "L20: GPU Architectures",
+      "编号": "L20",
+      "官方顺序": 1200,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture20-gpu-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=aE0onltJlOo",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释 GPU 的线程组织、SIMT 执行、延迟隐藏及分支分歧。"
+    },
+    "content": "## 验收标准\n能解释 GPU 的线程组织、SIMT 执行、延迟隐藏及分支分歧。\n## 自检提示\n- 比较 CPU 与 GPU 的设计目标。\n- 分析线程分歧与内存访问模式。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture20-gpu-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture20-gpu-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=aE0onltJlOo)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L19"
+    ],
+    "related": [
+      "HW4"
+    ]
+  },
+  {
+    "code": "L20b",
+    "properties": {
+      "任务名称": "L20b: GPU Programming",
+      "编号": "L20b",
+      "官方顺序": 1202,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture20b-gpu-programming-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=m3RYYOH_xWU",
+      "所属阶段": "高级体系结构",
+      "完成标准": "能解释 GPU 程序的线程与数据映射，阅读基本 kernel 并分析访存与同步。"
+    },
+    "content": "## 验收标准\n能解释 GPU 程序的线程与数据映射，阅读基本 kernel 并分析访存与同步。\n## 自检提示\n- 一个输入元素由哪个线程处理？\n- 哪些同步或访问方式影响正确性和性能？\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture20b-gpu-programming-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture20b-gpu-programming-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=m3RYYOH_xWU)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L20"
+    ],
+    "related": [
+      "HW4"
+    ]
+  },
+  {
+    "code": "HW4",
+    "properties": {
+      "任务名称": "HW4: SIMD Processing and GPUs",
+      "编号": "HW4",
+      "官方顺序": 1205,
+      "任务类型": "Homework",
+      "所属阶段": "高级体系结构",
+      "资料年份": 2025,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "资料核对": "已核对",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw4.pdf&cache=0",
+      "答案链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw4_sol.pdf&cache=0",
+      "完成标准": "独立尝试 SIMD 与 GPU 习题，能解释执行过程与性能限制。"
+    },
+    "content": "## 验收标准\n独立尝试 SIMD 与 GPU 习题，能解释执行过程与性能限制。\n## 使用方式\n按相关课件的主题拆做，不必等整套涉及的课全部学完。前置任务只表示适合开始部分题目的基础。\n## 资料版本\n2026 Homework 页面当前为空，因此采用 2025 年官方习题；保留原作业编号。\n- [题目](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw4.pdf&cache=0)\n- [答案：独立尝试后查看](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw4_sol.pdf&cache=0)\n- [官方作业目录](https://safari.ethz.ch/ddca/spring2025/doku.php?do=show&id=homeworks)",
+    "prereq": [
+      "L19"
+    ],
+    "related": [
+      "L19",
+      "L20",
+      "L20b"
+    ]
+  },
+  {
+    "code": "L21",
+    "properties": {
+      "任务名称": "L21: Memory Overview, Organization & Technology",
+      "编号": "L21",
+      "官方顺序": 1210,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture21-memory-organization-hierarchy-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=cpff0y2OqrI",
+      "所属阶段": "存储系统",
+      "完成标准": "能比较 SRAM、DRAM 等存储技术，解释组织结构与主要访问开销。"
+    },
+    "content": "## 验收标准\n能比较 SRAM、DRAM 等存储技术，解释组织结构与主要访问开销。\n## 自检提示\n- 容量、延迟、带宽和成本如何取舍？\n- 解释存储体与行缓冲的作用。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture21-memory-organization-hierarchy-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture21-memory-organization-hierarchy-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=cpff0y2OqrI)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L7"
+    ],
+    "related": [
+      "HW5"
+    ]
+  },
+  {
+    "code": "L22",
+    "properties": {
+      "任务名称": "L22: Memory Hierarchy and Caches",
+      "编号": "L22",
+      "官方顺序": 1220,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture22-memory-hierarchy-caches-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=l2_TNDtrafI",
+      "所属阶段": "存储系统",
+      "完成标准": "能解释局部性与存储层次，拆分 Cache 地址字段并计算命中、失效和 AMAT。"
+    },
+    "content": "## 验收标准\n能解释局部性与存储层次，拆分 Cache 地址字段并计算命中、失效和 AMAT。\n## 自检提示\n- 手工追踪简单访存序列。\n- 区分直接映射、组相联和全相联。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture22-memory-hierarchy-caches-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture22-memory-hierarchy-caches-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=l2_TNDtrafI)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L21"
+    ],
+    "related": [
+      "HW5"
+    ]
+  },
+  {
+    "code": "L23",
+    "properties": {
+      "任务名称": "L23: Cache Design and Tradeoffs",
+      "编号": "L23",
+      "官方顺序": 1230,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture23-cache-design-management-and-tradeoffs-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=_CzOaPRjt4Q",
+      "所属阶段": "存储系统",
+      "完成标准": "能分析 Cache 的映射、替换和写策略，并计算设计变化的性能影响。"
+    },
+    "content": "## 验收标准\n能分析 Cache 的映射、替换和写策略，并计算设计变化的性能影响。\n## 自检提示\n- 比较 write-through 与 write-back。\n- 分析容量、相联度和访问时间的取舍。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture23-cache-design-management-and-tradeoffs-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture23-cache-design-management-and-tradeoffs-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=_CzOaPRjt4Q)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L22"
+    ],
+    "related": [
+      "HW5"
+    ]
+  },
+  {
+    "code": "L24a",
+    "properties": {
+      "任务名称": "L24a: Advanced Caches",
+      "编号": "L24a",
+      "官方顺序": 1241,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture24a-advanced-caches-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=5dzzhFV4IlY",
+      "所属阶段": "存储系统",
+      "完成标准": "能解释课件中的高级 Cache 机制，并分析其缓解的瓶颈和成本。"
+    },
+    "content": "## 验收标准\n能解释课件中的高级 Cache 机制，并分析其缓解的瓶颈和成本。\n## 自检提示\n- 指出每种机制解决的具体问题。\n- 用例子分析收益与额外资源。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture24a-advanced-caches-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture24a-advanced-caches-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=5dzzhFV4IlY)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L23"
+    ],
+    "related": [
+      "HW5"
+    ]
+  },
+  {
+    "code": "L24b",
+    "properties": {
+      "任务名称": "L24b: Prefetching",
+      "编号": "L24b",
+      "官方顺序": 1242,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture24b-prefetching-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=5dzzhFV4IlY",
+      "所属阶段": "存储系统",
+      "完成标准": "能解释预取的触发与预测方式，并区分准确率、覆盖率和及时性。"
+    },
+    "content": "## 验收标准\n能解释预取的触发与预测方式，并区分准确率、覆盖率和及时性。\n## 自检提示\n- 预取何时会污染 Cache？\n- 分析顺序与跨步访问模式。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture24b-prefetching-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture24b-prefetching-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=5dzzhFV4IlY)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L22"
+    ],
+    "related": [
+      "HW6"
+    ]
+  },
+  {
+    "code": "HW5",
+    "properties": {
+      "任务名称": "HW5: Memory Organization, Memory Technology, Memory Hierarchy, and Caches",
+      "编号": "HW5",
+      "官方顺序": 1243,
+      "任务类型": "Homework",
+      "所属阶段": "存储系统",
+      "资料年份": 2025,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "资料核对": "已核对",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw5.pdf&cache=0",
+      "答案链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw5_sol.pdf&cache=0",
+      "完成标准": "完成存储技术、存储层次与 Cache 习题，能独立追踪访问并计算性能。"
+    },
+    "content": "## 验收标准\n完成存储技术、存储层次与 Cache 习题，能独立追踪访问并计算性能。\n## 使用方式\n按相关课件的主题拆做，不必等整套涉及的课全部学完。前置任务只表示适合开始部分题目的基础。\n## 资料版本\n2026 Homework 页面当前为空，因此采用 2025 年官方习题；保留原作业编号。\n- [题目](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw5.pdf&cache=0)\n- [答案：独立尝试后查看](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw5_sol.pdf&cache=0)\n- [官方作业目录](https://safari.ethz.ch/ddca/spring2025/doku.php?do=show&id=homeworks)",
+    "prereq": [
+      "L21"
+    ],
+    "related": [
+      "L21",
+      "L22",
+      "L23",
+      "L24a"
+    ]
+  },
+  {
+    "code": "L25a",
+    "properties": {
+      "任务名称": "L25a: Prefetching II & Virtual Memory",
+      "编号": "L25a",
+      "官方顺序": 1251,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture25-prefetching2-vmbeforelecture.pptx&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=2x4oK-ovrAQ",
+      "所属阶段": "存储系统",
+      "完成标准": "能分析预取收益与代价，并解释虚拟地址翻译、页表和 TLB 的基本过程。"
+    },
+    "content": "## 验收标准\n能分析预取收益与代价，并解释虚拟地址翻译、页表和 TLB 的基本过程。\n## 自检提示\n- 完整追踪一次虚拟地址访问。\n- 区分 TLB miss 与 page fault。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture25-prefetching2-vmbeforelecture.pptx&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=kanellok-ddca-2026-lecture-25-virtual-memory-before-lecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=2x4oK-ovrAQ)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。\n官网此课当前提供两份 PPTX，均已保留；未虚构 PDF。",
+    "prereq": [
+      "L24b"
+    ],
+    "related": [
+      "HW6"
+    ]
+  },
+  {
+    "code": "L26a",
+    "properties": {
+      "任务名称": "L26a: Virtual Memory II",
+      "编号": "L26a",
+      "官方顺序": 1261,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=kanellok-ddca-2026-lecture-26-virtual-memory-before-lecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=pPQjdD6br4I",
+      "所属阶段": "存储系统",
+      "完成标准": "能完成虚拟地址到物理地址的翻译题，并分析 TLB、页表与缺页处理。"
+    },
+    "content": "## 验收标准\n能完成虚拟地址到物理地址的翻译题，并分析 TLB、页表与缺页处理。\n## 自检提示\n- 计算地址字段和页表开销。\n- 说明保护与地址空间隔离的作用。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=kanellok-ddca-2026-lecture-26-virtual-memory-before-lecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=kanellok-ddca-2026-lecture-26-virtual-memory-before-lecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=pPQjdD6br4I)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L25a"
+    ],
+    "related": [
+      "HW6"
+    ]
+  },
+  {
+    "code": "L26b",
+    "properties": {
+      "任务名称": "L26b: Epilogue",
+      "编号": "L26b",
+      "官方顺序": 1262,
+      "任务类型": "理论课",
+      "资料年份": 2026,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture26b-epilogue-future-comp-arch-afterlecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=pPQjdD6br4I",
+      "所属阶段": "存储系统",
+      "完成标准": "能串联从数字逻辑到处理器与存储系统的课程主线，并总结至少一项未来架构方向的取舍。"
+    },
+    "content": "## 验收标准\n能串联从数字逻辑到处理器与存储系统的课程主线，并总结至少一项未来架构方向的取舍。\n## 自检提示\n- 指出自己仍需补强的知识环节。\n- 说明新架构要解决的具体瓶颈。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture26b-epilogue-future-comp-arch-afterlecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-lecture26b-epilogue-future-comp-arch-afterlecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=pPQjdD6br4I)\n以课件为主，视频按需补充；不要求完整观看录像。以上验收标准和关联为自学建议。",
+    "prereq": [
+      "L26a"
+    ],
+    "related": []
+  },
+  {
+    "code": "HW6",
+    "properties": {
+      "任务名称": "HW6: Prefetching and Virtual Memory",
+      "编号": "HW6",
+      "官方顺序": 1265,
+      "任务类型": "Homework",
+      "所属阶段": "存储系统",
+      "资料年份": 2025,
+      "学习优先级": "主线必学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "资料核对": "已核对",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw6.pdf&cache=0",
+      "答案链接": "https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw6_sol.pdf&cache=0",
+      "完成标准": "完成预取与虚拟内存习题，能说明预取权衡并完成地址翻译与 TLB 分析。"
+    },
+    "content": "## 验收标准\n完成预取与虚拟内存习题，能说明预取权衡并完成地址翻译与 TLB 分析。\n## 使用方式\n按相关课件的主题拆做，不必等整套涉及的课全部学完。前置任务只表示适合开始部分题目的基础。\n## 资料版本\n2026 Homework 页面当前为空，因此采用 2025 年官方习题；保留原作业编号。\n- [题目](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw6.pdf&cache=0)\n- [答案：独立尝试后查看](https://safari.ethz.ch/ddca/spring2025/lib/exe/fetch.php?media=optional_hw6_sol.pdf&cache=0)\n- [官方作业目录](https://safari.ethz.ch/ddca/spring2025/doku.php?do=show&id=homeworks)",
+    "prereq": [
+      "L24b"
+    ],
+    "related": [
+      "L24b",
+      "L25a",
+      "L26a"
+    ]
+  },
+  {
+    "code": "D1",
+    "properties": {
+      "任务名称": "D1: Problem-Solving Session 1",
+      "编号": "D1",
+      "官方顺序": 3001,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=VBCA0i0lNk4",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=VBCA0i0lNk4",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=VBCA0i0lNk4)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D2",
+    "properties": {
+      "任务名称": "D2: Problem-Solving Session 2",
+      "编号": "D2",
+      "官方顺序": 3002,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=kwrlfoUC2IM",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=kwrlfoUC2IM",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=kwrlfoUC2IM)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D3",
+    "properties": {
+      "任务名称": "D3: Problem-Solving Session 3",
+      "编号": "D3",
+      "官方顺序": 3003,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=r9uLvLZzQyc",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=r9uLvLZzQyc",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=r9uLvLZzQyc)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D4",
+    "properties": {
+      "任务名称": "D4: Problem-Solving Session 4",
+      "编号": "D4",
+      "官方顺序": 3004,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=05SHU6vh1N4",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=05SHU6vh1N4",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=05SHU6vh1N4)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D5",
+    "properties": {
+      "任务名称": "D5: Problem-Solving Session 5",
+      "编号": "D5",
+      "官方顺序": 3005,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=FbUu2oNcBz4",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=FbUu2oNcBz4",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=FbUu2oNcBz4)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D6",
+    "properties": {
+      "任务名称": "D6: Problem-Solving Session 6",
+      "编号": "D6",
+      "官方顺序": 3006,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=DD1y1w-Ar8Q",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=DD1y1w-Ar8Q",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=DD1y1w-Ar8Q)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D7",
+    "properties": {
+      "任务名称": "D7: Problem-Solving Session 7",
+      "编号": "D7",
+      "官方顺序": 3007,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=nx4E34TV8S4",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=nx4E34TV8S4",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=nx4E34TV8S4)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D8",
+    "properties": {
+      "任务名称": "D8: Problem-Solving Session 8",
+      "编号": "D8",
+      "官方顺序": 3008,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=3tt1Hsnm6-c",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=3tt1Hsnm6-c",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=3tt1Hsnm6-c)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D9",
+    "properties": {
+      "任务名称": "D9: Problem-Solving Session 9",
+      "编号": "D9",
+      "官方顺序": 3009,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=CSsp9gZQrUE",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=CSsp9gZQrUE",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=CSsp9gZQrUE)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D10",
+    "properties": {
+      "任务名称": "D10: Problem-Solving Session 10",
+      "编号": "D10",
+      "官方顺序": 3010,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=YFJMhObZaGk",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=YFJMhObZaGk",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=YFJMhObZaGk)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D11",
+    "properties": {
+      "任务名称": "D11: Problem-Solving Session 11",
+      "编号": "D11",
+      "官方顺序": 3011,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=AxpMENs9VEM",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=AxpMENs9VEM",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=AxpMENs9VEM)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D12",
+    "properties": {
+      "任务名称": "D12: Problem-Solving Session 12",
+      "编号": "D12",
+      "官方顺序": 3012,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=UFs7Av3hANk",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=UFs7Av3hANk",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=UFs7Av3hANk)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "D13",
+    "properties": {
+      "任务名称": "D13: Problem-Solving Session 13",
+      "编号": "D13",
+      "官方顺序": 3013,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=7e1af8yUW10",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=7e1af8yUW10",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=7e1af8yUW10)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L27",
+    "properties": {
+      "任务名称": "L27: Problem-Solving I",
+      "编号": "L27",
+      "官方顺序": 4027,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-i-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=U1dhvcZ-f_M",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-i-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-i-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=U1dhvcZ-f_M)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L28",
+    "properties": {
+      "任务名称": "L28: Problem-Solving II",
+      "编号": "L28",
+      "官方顺序": 4028,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://www.youtube.com/watch?v=5ybhEMPUFok",
+      "资料核对": "部分缺失",
+      "视频链接": "https://www.youtube.com/watch?v=5ybhEMPUFok",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [对应录像](https://www.youtube.com/watch?v=5ybhEMPUFok)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。\n官网该行 PDF/PPT 链接的 media 参数为空；未虚构附件地址，先使用已有录像。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L29",
+    "properties": {
+      "任务名称": "L29: Problem-Solving III",
+      "编号": "L29",
+      "官方顺序": 4029,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-iii-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=F2rc28K_xY4",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-iii-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-iii-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=F2rc28K_xY4)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L30",
+    "properties": {
+      "任务名称": "L30: Problem-Solving IV",
+      "编号": "L30",
+      "官方顺序": 4030,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-iv-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=5b--mxHnDc0",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-iv-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-iv-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=5b--mxHnDc0)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L31",
+    "properties": {
+      "任务名称": "L31: Problem-Solving V",
+      "编号": "L31",
+      "官方顺序": 4031,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-v-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=2ste61kbVec",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-v-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-v-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=2ste61kbVec)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L32",
+    "properties": {
+      "任务名称": "L32: Problem-Solving VI",
+      "编号": "L32",
+      "官方顺序": 4032,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-vi-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=3kdrI4ZcP84",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-vi-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-vi-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=3kdrI4ZcP84)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  },
+  {
+    "code": "L33",
+    "properties": {
+      "任务名称": "L33: Problem-Solving VII",
+      "编号": "L33",
+      "官方顺序": 4033,
+      "任务类型": "解题复习",
+      "资料年份": 2026,
+      "学习优先级": "辅助选学",
+      "状态": "未开始",
+      "掌握程度": "未评估",
+      "官方资料链接": "https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-vii-beforelecture.pdf&cache=0",
+      "资料核对": "已核对",
+      "视频链接": "https://www.youtube.com/watch?v=v1XcXXKbxsA",
+      "完成标准": "先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。"
+    },
+    "content": "## 验收标准\n先独立尝试录像或课件中的代表性题目，再对照讲解订正并记录错误原因。\n## 自检提示\n- 选择与当前学习主题有关的题目。\n- 能解释错因，并独立重做。\n## 官方资料\n- [课程安排与资料原始入口](https://safari.ethz.ch/ddca/spring2026/doku.php?id=schedule)\n- [课件 PDF](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-vii-beforelecture.pdf&cache=0)\n- [课件 PPTX](https://safari.ethz.ch/ddca/spring2026/lib/exe/fetch.php?media=onur-ddca-2026-problem-solving-vii-beforelecture.pptx&cache=0)\n- [对应录像](https://www.youtube.com/watch?v=v1XcXXKbxsA)\n选学解题资源，不计入主线完成率。先做题，再按需要观看讲解。",
+    "prereq": [],
+    "related": []
+  }
+]
